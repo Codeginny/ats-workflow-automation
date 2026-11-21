@@ -24,7 +24,8 @@ jobs:
       - name: Tests
         run: pytest
 
+      # Los PDF quedan afuera: embeben la fuente del sistema y cambian según la máquina.
       - name: Los datos de ejemplo del repo son los que arma el script
         run: |
           python herramientas/datos_demo.py
-          git diff --exit-code -- seguimiento.csv postulaciones
+          git diff --exit-code -- seguimiento.csv postulaciones ':(exclude)*.pdf'
