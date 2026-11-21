@@ -1,0 +1,78 @@
+datos_personales:
+  nombre: Carolina Méndez
+  titular: Project Manager | Fintech y pagos
+  email: carolina.mendez@ejemplo.com
+  telefono: +54 351 000-0000
+  ubicacion: Córdoba, Argentina
+  modalidad: Remoto 100%
+  linkedin: ''
+  iconos: true
+  pretension: USD 2.800 mensuales
+  idiomas:
+  - 'Español: nativo'
+  - 'Inglés: intermedio (lectura técnica y comunicación escrita)'
+  mostrar_pretension: true
+perfil: Project Manager con 7 años en proyectos digitales, los últimos 4 en una fintech de pagos para pymes. Coordino integraciones con proveedores, el roadmap trimestral de dos equipos de producto y la comunicación con la dirección, con métricas claras de avance y desvíos. Trabajo con Scrum y Kanban.
+experiencia:
+- puesto: Project Manager Senior
+  empresa: Finvara — Billetera digital y pagos para pymes
+  periodo: 2022 – Actualidad
+  logros:
+  - Coordino el roadmap de dos equipos de producto (12 personas) con planificación trimestral y sprints de dos semanas.
+  - 'Coordino a proveedores externos de tecnología: alcance, entregables y control de horas.'
+  - Lideré la migración del módulo de cobros a un proveedor nuevo sin cortes de servicio, en 5 meses y dentro del presupuesto.
+  - Armé un tablero de seguimiento en Looker Studio con avance, riesgos y desvíos que usa la dirección cada semana.
+  - Ordené el proceso de pedidos de cambio con un formulario y criterios de priorización acordados con negocio.
+- puesto: Project Manager
+  empresa: Estudio Nodal — Agencia de diseño y desarrollo web
+  periodo: 2019 – 2022
+  logros:
+  - Implementé Kanban en Jira y revisiones de alcance con el cliente al cierre de cada etapa, y bajamos un 25% el retrabajo.
+  - Gestioné en paralelo entre 4 y 6 proyectos web y de eCommerce para clientes de retail y educación.
+  - Armé propuestas, cronogramas y presupuestos para clientes nuevos junto al área comercial.
+  - 'Fui el contacto diario con los clientes: reuniones de avance, minutas y gestión de expectativas.'
+- puesto: Analista de Operaciones
+  empresa: Distribuidora Ríos — Consumo masivo
+  periodo: 2016 – 2019
+  logros:
+  - Documenté y simplifiqué el circuito de pedidos y despachos, que pasó de 9 a 6 pasos.
+  - Armé reportes semanales de entregas y quiebres de stock en Excel y SQL básico.
+  - Coordiné con transportistas y depósitos la planificación de entregas.
+formacion:
+  estudios:
+  - Licenciatura en Administración — Universidad Nacional de Córdoba
+  certificaciones:
+  - Professional Scrum Master I (PSM I) — Scrum.org
+  - Gestión de proyectos con enfoque PMBOK — Curso online
+  - Looker Studio para reportes de gestión — Curso online
+habilidades:
+  gestion:
+  - Scrum
+  - Kanban
+  - PMBOK
+  - Planificación de sprints
+  - Roadmap
+  - Gestión de riesgos
+  - Gestión de stakeholders
+  - Control presupuestario
+  - Gestión del alcance
+  - KPIs
+  - Mejora de procesos
+  - Gestión de proveedores
+  herramientas:
+  - Jira
+  - Confluence
+  - Notion
+  - Trello
+  - Miro
+  - Slack
+  - Google Workspace
+  - Excel avanzado
+  - Looker Studio
+  - SQL (básico)
+  blandas:
+  - Comunicación con clientes
+  - Negociación
+  - Facilitación de reuniones
+  - Organización
+  - Autonomía en remoto

@@ -1,0 +1,482 @@
+# Postulaciones de ejemplo para la demo. Empresas, personas y mails son FICTICIOS
+# (los mails usan el dominio reservado .example, que no existe).
+# `python herramientas/datos_demo.py` arma con esto las carpetas de postulaciones/,
+# los PDF del CV y seguimiento.csv.
+
+- id: 1
+  fecha: "2026-10-14"
+  empresa: "Nubra Software"
+  puesto: "Digital Project Manager"
+  dedica: "SaaS de ruteo y seguimiento de flotas para empresas de logística de Argentina y Chile."
+  pais: "Argentina"
+  salario: ""
+  canal: "email"
+  contacto: "talento@nubra.example"
+  link: "https://nubra.example/empleos/digital-pm"
+  fuente: "Get on Board"
+  estado: "entrevista"
+  proximo: "2026-11-21"
+  notas: "2026-11-12: primera entrevista con RRHH el 19/11"
+  puntaje: 86
+  detalle_puntaje: "rol 27/30 · requisitos 26/30 · remoto 15/15 · español 15/15 · salario y contrato 3/10 (no publica sueldo)"
+  oferta: |
+    En Nubra Software buscamos una persona Digital Project Manager para coordinar la implementación de nuestra plataforma en clientes de logística.
+
+    Responsabilidades:
+    - Planificar y seguir proyectos de implementación con clientes corporativos.
+    - Coordinar a los equipos de producto, desarrollo y soporte.
+    - Gestionar riesgos, alcance y comunicación con stakeholders.
+    - Reportar avance y desvíos a la dirección.
+
+    Requisitos:
+    - 4 años o más como Project Manager en proyectos digitales.
+    - Experiencia con Scrum y Jira.
+    - Manejo de reportes de gestión.
+    - Deseable: experiencia en logística o SaaS B2B.
+
+    100% remoto para LATAM. Enviá tu CV a talento@nubra.example con el asunto "Digital PM".
+  requisitos:
+    - ["Proyectos digitales (4+ años)", "Sí", "7 años como PM en Estudio Nodal y Finvara."]
+    - ["Scrum y Jira", "Sí", "Sprints de dos semanas en Finvara; Kanban en Jira en Estudio Nodal."]
+    - ["Gestión de riesgos y stakeholders", "Sí", "Comité semanal de riesgos (conocimientos.yaml) y contacto diario con clientes."]
+    - ["Reportes de gestión", "Sí", "Tablero en Looker Studio que usa la dirección cada semana."]
+    - ["Logística o SaaS B2B (deseable)", "En parte", "Coordinó entregas y transportistas en Distribuidora Ríos, pero no en un SaaS."]
+  brechas:
+    - "**SaaS B2B:** no trabajó en una empresa de software para empresas. Conviene leer cómo Nubra cobra y cómo es una implementación típica."
+    - "**Entrevista:** tener a mano el ejemplo de la migración de cobros sin cortes, que es lo más parecido a una implementación."
+  claves: "Digital Project Manager, implementación, Scrum, Jira, gestión de riesgos, stakeholders, alcance, reportes de gestión, desvíos, logística"
+  estudiar: "Métricas de implementación SaaS; Onboarding de clientes B2B; Ruteo y última milla"
+  titular: "Digital Project Manager"
+  perfil: >-
+    Digital Project Manager con 7 años coordinando proyectos digitales en agencias y fintech.
+    Llevo implementaciones de punta a punta con equipos de producto, desarrollo y negocio:
+    alcance, cronograma, riesgos y comunicación con stakeholders. Trabajo con Scrum y Jira y
+    armo reportes de gestión en Looker Studio para mostrar avance y desvíos. Antes trabajé en
+    operaciones de una distribuidora, coordinando entregas con transportistas y depósitos.
+  asunto: "Digital PM"
+  carta: |
+    Hola:
+
+    Vi que Nubra busca una Digital Project Manager para coordinar implementaciones con clientes de logística, y me interesa mucho: empecé mi carrera en operaciones de una distribuidora, coordinando entregas con transportistas, y conozco de cerca el problema que resuelve su plataforma.
+
+    En Finvara lideré la migración del módulo de cobros a un proveedor nuevo sin cortes de servicio, en 5 meses y dentro del presupuesto, coordinando a producto, desarrollo y proveedores externos. Además armé un tablero en Looker Studio con avance, riesgos y desvíos que la dirección usa cada semana. Trabajo con Scrum y Jira desde hace años.
+
+    Adjunto mi CV y quedo a disposición para una llamada cuando les quede cómodo.
+
+    Saludos cordiales,
+
+- id: 2
+  fecha: "2026-10-20"
+  empresa: "Aurea Pagos"
+  puesto: "Project Manager de Pagos"
+  dedica: "Fintech mexicana de pagos con tarjeta y transferencias para comercios medianos."
+  pais: "México"
+  salario: "USD 2.400 – 2.800"
+  canal: "email"
+  contacto: "people@aurea.example"
+  link: "https://aurea.example/careers/pm-pagos"
+  fuente: "Computrabajo MX"
+  estado: "entrevista_2"
+  proximo: "2026-11-21"
+  notas: "2026-10-30: entrevista con People | 2026-11-13: segunda entrevista con el líder de producto el 21/11"
+  puntaje: 91
+  detalle_puntaje: "rol 29/30 · requisitos 27/30 · remoto 15/15 · español 15/15 · salario y contrato 5/10"
+  oferta: |
+    Aurea Pagos busca Project Manager para el equipo de medios de pago.
+
+    Qué vas a hacer:
+    - Coordinar proyectos de integración con procesadores y bancos.
+    - Planificar el roadmap trimestral con producto.
+    - Gestionar proveedores externos y su alcance.
+    - Mantener informada a la dirección con métricas claras.
+
+    Qué buscamos:
+    - Experiencia en fintech o pagos.
+    - Metodologías ágiles (Scrum, Kanban).
+    - Excelente comunicación escrita.
+    - Inglés técnico de lectura.
+
+    Remoto desde LATAM. Rango salarial: USD 2.400 – 2.800 mensuales. Contanos tu expectativa salarial en el mail a people@aurea.example.
+  requisitos:
+    - ["Fintech o pagos", "Sí", "Finvara, billetera digital y pagos para pymes (2022 – actualidad)."]
+    - ["Integraciones con procesadores", "Sí", "Migración del módulo de cobros a un proveedor nuevo sin cortes."]
+    - ["Roadmap trimestral", "Sí", "Coordina el roadmap de dos equipos con planificación trimestral."]
+    - ["Gestión de proveedores", "Sí", "Coordina proveedores externos de tecnología en Finvara."]
+    - ["Inglés técnico de lectura", "Sí", "Inglés intermedio, lectura técnica y escrita."]
+  brechas:
+    - "**Bancos y regulación mexicana:** no trabajó con bancos de México. Leer lo básico de SPEI y de cómo se certifica una integración."
+  claves: "Project Manager, pagos, fintech, integraciones, procesadores, roadmap, proveedores, Scrum, Kanban, métricas, comunicación"
+  estudiar: "SPEI y pagos en México; Certificación de integraciones con procesadores"
+  titular: "Project Manager | Fintech y pagos"
+  perfil: >-
+    Project Manager con 7 años en proyectos digitales, los últimos 4 en una fintech de pagos para
+    pymes. Coordino integraciones con proveedores, el roadmap trimestral de dos equipos de
+    producto y la comunicación con la dirección, con métricas claras de avance y desvíos.
+    Trabajo con Scrum y Kanban.
+  mostrar_pretension: true
+  pretension: "USD 2.800 mensuales"
+  asunto: "Project Manager de Pagos — Carolina Méndez"
+  carta: |
+    Hola:
+
+    Me postulo a Project Manager de Pagos en Aurea. Hace cuatro años que trabajo en pagos para pymes y me atrae que Aurea apunte a comercios medianos, un segmento donde la integración con cada procesador marca la diferencia.
+
+    En Finvara lideré la migración del módulo de cobros a un proveedor nuevo sin cortes de servicio, en 5 meses y dentro del presupuesto. También coordino el roadmap trimestral de dos equipos de producto y a los proveedores externos de tecnología, con un tablero semanal de avance y riesgos para la dirección.
+
+    Mi expectativa salarial es de USD 2.800 mensuales. Adjunto mi CV y quedo a disposición para una llamada.
+
+    Saludos cordiales,
+
+- id: 3
+  fecha: "2026-10-27"
+  empresa: "Clínica Norte Digital"
+  puesto: "Coordinadora de Proyectos de Transformación"
+  dedica: "Área digital de una red de clínicas privadas del norte argentino: turnos online, historia clínica y telemedicina."
+  pais: "Argentina"
+  salario: ""
+  canal: "formulario"
+  contacto: ""
+  link: "https://clinicanorte.example/trabaja-con-nosotros"
+  fuente: "Bumeran"
+  estado: "enviado"
+  proximo: "2026-11-03"
+  notas: "2026-10-27: enviada por el formulario de la web"
+  puntaje: 78
+  detalle_puntaje: "rol 24/30 · requisitos 22/30 · remoto 15/15 · español 15/15 · salario y contrato 2/10"
+  oferta: |
+    Clínica Norte Digital incorpora Coordinador/a de Proyectos de Transformación.
+
+    Funciones:
+    - Coordinar proyectos de digitalización de procesos (turnos, admisión, facturación).
+    - Relevar circuitos actuales y proponer mejoras.
+    - Acompañar la adopción de nuevas herramientas por parte de los equipos.
+
+    Requisitos:
+    - Experiencia coordinando proyectos de mejora de procesos.
+    - Capacidad para trabajar con equipos no técnicos.
+    - Deseable: experiencia en salud.
+
+    Modalidad remota. Postulación por el formulario de la web.
+  requisitos:
+    - ["Mejora de procesos", "Sí", "Simplificó el circuito de pedidos de 9 a 6 pasos en Distribuidora Ríos."]
+    - ["Coordinación de proyectos", "Sí", "7 años como PM."]
+    - ["Equipos no técnicos", "Sí", "Coordinó transportistas y depósitos; pedidos de cambio con negocio en Finvara."]
+    - ["Experiencia en salud (deseable)", "No", "No figura en el maestro."]
+  brechas:
+    - "**Salud:** no tiene experiencia en el sector. Conviene entender el circuito de admisión y facturación a obras sociales."
+    - "**Gestión del cambio:** la oferta pide acompañar la adopción. Tiene ejemplos (formulario de pedidos de cambio), pero no un método formal."
+  claves: "transformación, digitalización, mejora de procesos, relevamiento, adopción, gestión del cambio, coordinación de proyectos, turnos, facturación"
+  estudiar: "Gestión del cambio (ADKAR); Circuito de facturación a obras sociales; Indicadores de adopción"
+  titular: "Coordinadora de Proyectos de Transformación"
+  perfil: >-
+    Project Manager con 7 años coordinando proyectos digitales y de mejora de procesos. Empecé en
+    operaciones, documentando y simplificando circuitos, y hoy ordeno procesos entre áreas técnicas
+    y de negocio en una fintech. Trabajo bien con equipos no técnicos y me ocupo de que las
+    herramientas nuevas se usen de verdad.
+  asunto: ""
+  carta: |
+    Hola:
+
+    Me interesa la búsqueda de Coordinadora de Proyectos de Transformación porque combina lo que más disfruto: entender cómo funciona hoy un circuito y ayudar a que los equipos trabajen mejor con herramientas nuevas.
+
+    En Distribuidora Ríos documenté y simplifiqué el circuito de pedidos y despachos, que pasó de 9 a 6 pasos. En Finvara ordené el proceso de pedidos de cambio con un formulario y criterios de priorización acordados con negocio, y hoy lo usan todas las áreas. No trabajé en salud, pero sé relevar procesos con equipos no técnicos.
+
+    Quedo a disposición para una llamada cuando les quede cómodo.
+
+    Saludos cordiales,
+
+- id: 4
+  fecha: "2026-11-03"
+  empresa: "EducaPlus"
+  puesto: "Project Manager eLearning"
+  dedica: "Plataforma de cursos online para empresas de habla hispana."
+  pais: "España"
+  salario: "USD 2.000 – 2.400"
+  canal: "email"
+  contacto: "seleccion@educaplus.example"
+  link: "https://educaplus.example/empleo/pm-elearning"
+  fuente: "InfoJobs"
+  estado: "enviado"
+  proximo: "2026-11-10"
+  notas: "2026-11-03: mail enviado a seleccion@educaplus.example"
+  puntaje: 72
+  detalle_puntaje: "rol 22/30 · requisitos 20/30 · remoto 15/15 · español 15/15 · salario y contrato 0/10 (rango bajo)"
+  oferta: |
+    EducaPlus busca Project Manager para su equipo de contenidos eLearning.
+
+    Responsabilidades:
+    - Planificar la producción de cursos con expertos, diseño instruccional y video.
+    - Controlar plazos y presupuesto de cada curso.
+    - Coordinar la publicación en el LMS.
+
+    Requisitos:
+    - Experiencia como PM en proyectos digitales.
+    - Organización y seguimiento de varios proyectos a la vez.
+    - Deseable: experiencia con LMS (Moodle).
+
+    100% remoto. Salario: USD 2.000 – 2.400. Enviar CV a seleccion@educaplus.example.
+  requisitos:
+    - ["PM en proyectos digitales", "Sí", "Estudio Nodal y Finvara."]
+    - ["Varios proyectos en paralelo", "Sí", "Entre 4 y 6 proyectos a la vez en Estudio Nodal."]
+    - ["Plazos y presupuesto", "Sí", "Migración dentro del presupuesto; presupuestos para clientes en Estudio Nodal."]
+    - ["LMS / Moodle (deseable)", "No", "No figura en el maestro."]
+  brechas:
+    - "**LMS:** no usó Moodle. Moodle tiene un curso gratis para administradores."
+    - "**Producción de contenidos:** no coordinó expertos ni video; sí proyectos con clientes de educación en la agencia."
+  claves: "Project Manager, eLearning, producción de cursos, plazos, presupuesto, LMS, Moodle, varios proyectos, organización"
+  estudiar: "Moodle para administradores; Diseño instruccional básico"
+  titular: "Project Manager | Proyectos digitales y eLearning"
+  perfil: >-
+    Project Manager con 7 años en proyectos digitales. En una agencia gestioné en paralelo entre 4
+    y 6 proyectos para clientes de retail y educación, con control de plazos y presupuesto, y hoy
+    coordino equipos de producto en una fintech.
+  mostrar_pretension: true
+  pretension: "USD 2.400 mensuales"
+  asunto: "Postulación — Project Manager eLearning — Carolina Méndez"
+  carta: |
+    Hola:
+
+    Me postulo a Project Manager eLearning en EducaPlus. Me gusta que su plataforma esté pensada para empresas: en la agencia donde trabajé hicimos varios proyectos para clientes de educación y conozco la presión de llegar a tiempo con contenidos que dependen de muchas personas.
+
+    En Estudio Nodal gestioné en paralelo entre 4 y 6 proyectos web, y con revisiones de alcance al cierre de cada etapa bajamos un 25% el retrabajo. Hoy, en Finvara, llevo proyectos que se cumplen en plazo y dentro del presupuesto. Todavía no usé Moodle, y ya empecé a estudiarlo.
+
+    Adjunto mi CV y quedo a disposición para una llamada.
+
+    Saludos cordiales,
+
+- id: 5
+  fecha: "2026-10-06"
+  empresa: "Retail Sur"
+  puesto: "Analista PMO"
+  dedica: "Cadena de tiendas de indumentaria con venta online en Argentina y Uruguay."
+  pais: "Argentina"
+  salario: ""
+  canal: "formulario"
+  contacto: ""
+  link: "https://retailsur.example/rrhh/analista-pmo"
+  fuente: "ZonaJobs"
+  estado: "rechazado"
+  proximo: ""
+  notas: "2026-10-06: enviada por formulario | 2026-10-24: respondieron que siguen con perfiles con Power BI"
+  puntaje: 70
+  detalle_puntaje: "rol 21/30 · requisitos 18/30 · remoto 15/15 · español 15/15 · salario y contrato 1/10"
+  oferta: |
+    Retail Sur busca Analista PMO para su oficina de proyectos.
+
+    Tareas:
+    - Consolidar el estado de la cartera de proyectos.
+    - Armar el reporte semanal para el comité.
+    - Controlar presupuestos y desvíos.
+
+    Requisitos:
+    - Excel avanzado y Power BI.
+    - Conocimiento de PMBOK.
+    - Experiencia en reportes de gestión.
+
+    Remoto. Postulación por la web.
+  requisitos:
+    - ["Excel avanzado", "Sí", "Habilidades del maestro."]
+    - ["Power BI", "No", "Usa Looker Studio, no Power BI."]
+    - ["PMBOK", "Sí", "Curso de gestión de proyectos con enfoque PMBOK."]
+    - ["Reportes de gestión", "Sí", "Tablero semanal en Looker Studio para la dirección."]
+  brechas:
+    - "**Power BI:** es excluyente. Lo de Looker Studio se traslada, pero conviene hacer un tablero de práctica."
+  claves: "Analista PMO, cartera de proyectos, reporte semanal, comité, presupuesto, desvíos, Excel avanzado, Power BI, PMBOK"
+  estudiar: "Power BI desde cero; Medidas DAX básicas; Valor ganado (EVM)"
+  titular: "Analista PMO"
+  perfil: >-
+    Project Manager con 7 años en proyectos digitales y experiencia armando reportes de gestión.
+    Consolido avance, riesgos y desvíos en tableros que usa la dirección cada semana, con
+    Excel avanzado y Looker Studio, y trabajo con el enfoque del PMBOK.
+  asunto: ""
+  carta: |
+    Hola:
+
+    Me postulo a Analista PMO en Retail Sur. Me interesa trabajar en una oficina de proyectos de una empresa con tiendas y venta online, donde el reporte semanal ayuda a decidir qué proyectos priorizar.
+
+    En Finvara armé un tablero en Looker Studio con avance, riesgos y desvíos que la dirección usa cada semana, y antes, en Distribuidora Ríos, preparaba reportes semanales de entregas y quiebres de stock. Trabajo con el enfoque del PMBOK y con Excel avanzado.
+
+    Quedo a disposición para una llamada cuando les quede cómodo.
+
+    Saludos cordiales,
+
+- id: 6
+  fecha: "2026-11-17"
+  empresa: "Verdea Energía"
+  puesto: "Scrum Master"
+  dedica: "Empresa chilena de paneles solares para hogares, con venta y seguimiento de instalaciones por app."
+  pais: "Chile"
+  salario: ""
+  canal: "email"
+  contacto: "equipo@verdea.example"
+  link: "https://verdea.example/trabajos/scrum-master"
+  fuente: "Get on Board"
+  estado: "pendiente_envio"
+  revisada: "si"
+  proximo: ""
+  notas: "2026-11-18: revisada; sale el lunes"
+  puntaje: 74
+  detalle_puntaje: "rol 22/30 · requisitos 21/30 · remoto 15/15 · español 15/15 · salario y contrato 1/10"
+  oferta: |
+    Verdea Energía busca Scrum Master para sus dos equipos de la app.
+
+    - Facilitar ceremonias Scrum y acompañar al Product Owner.
+    - Quitar impedimentos y mejorar la forma de trabajo de los equipos.
+    - Medir y mostrar la evolución de los equipos.
+
+    Requisitos: certificación Scrum (PSM o CSM), 2 años o más como Scrum Master o PM ágil.
+    100% remoto. Mandanos tu CV a equipo@verdea.example.
+  requisitos:
+    - ["Certificación Scrum", "Sí", "Professional Scrum Master I (PSM I)."]
+    - ["Facilitar ceremonias", "Sí", "Sprints de dos semanas con dos equipos en Finvara."]
+    - ["Métricas de equipo", "En parte", "Tablero de avance y desvíos; no menciona velocidad ni lead time."]
+  brechas:
+    - "**Métricas ágiles:** preparar velocidad, lead time y cycle time con un ejemplo."
+  claves: "Scrum Master, PSM, ceremonias, Product Owner, impedimentos, mejora continua, métricas, equipos ágiles"
+  estudiar: "Métricas de flujo (lead time, cycle time); Facilitación de retrospectivas"
+  titular: "Scrum Master | PSM I"
+  perfil: >-
+    Scrum Master certificada (PSM I) y Project Manager con 7 años en proyectos digitales. Hoy
+    coordino dos equipos de producto con sprints de dos semanas: facilito las ceremonias, acompaño
+    a producto y muestro la evolución del trabajo en tableros que usa toda la empresa.
+  asunto: "Scrum Master — Carolina Méndez"
+  carta: |
+    Hola:
+
+    Vi que Verdea busca Scrum Master para los equipos de su app y me sumaría con gusto: me gusta que la app acompañe a cada cliente desde la venta hasta la instalación, porque ahí el trabajo coordinado entre equipos se nota.
+
+    Tengo la certificación PSM I y hoy coordino dos equipos de producto con sprints de dos semanas en Finvara: facilito las ceremonias, ordené el proceso de pedidos de cambio con negocio y armé un tablero de avance que mira toda la empresa. Antes, en Estudio Nodal, implementé Kanban en Jira y bajamos un 25% el retrabajo.
+
+    Adjunto mi CV y quedo a disposición para una llamada.
+
+    Saludos cordiales,
+
+- id: 7
+  fecha: "2026-11-18"
+  empresa: "Agencia Pampa"
+  puesto: "Project Manager Web"
+  dedica: "Agencia uruguaya de sitios y tiendas online para marcas de consumo."
+  pais: "Uruguay"
+  salario: ""
+  canal: "email"
+  contacto: "hola@pampa.example"
+  link: "https://pampa.example/equipo/pm-web"
+  fuente: "Torre"
+  estado: "preparada"
+  proximo: ""
+  notas: ""
+  puntaje: 81
+  detalle_puntaje: "rol 27/30 · requisitos 24/30 · remoto 15/15 · español 15/15 · salario y contrato 0/10"
+  oferta: |
+    En Agencia Pampa buscamos Project Manager Web.
+
+    Vas a coordinar proyectos de sitios y eCommerce para marcas de consumo: propuesta, cronograma, seguimiento con el cliente y entrega.
+
+    Buscamos experiencia en agencia, manejo de Jira o Trello y muy buena relación con clientes. Deseable: Shopify o VTEX.
+
+    100% remoto. Escribinos a hola@pampa.example.
+  requisitos:
+    - ["Experiencia en agencia", "Sí", "Estudio Nodal (2019 – 2022)."]
+    - ["Jira o Trello", "Sí", "Ambos en el maestro."]
+    - ["Relación con clientes", "Sí", "Contacto diario con clientes, minutas y gestión de expectativas."]
+    - ["Shopify o VTEX (deseable)", "No", "No figura en el maestro."]
+  brechas:
+    - "**Plataformas de eCommerce:** no usó Shopify ni VTEX. Shopify tiene una academia gratis."
+  claves: "Project Manager Web, agencia, eCommerce, sitios web, cronograma, propuesta, clientes, Jira, Trello, Shopify"
+  estudiar: "Shopify para gestores de proyecto; Checklist de lanzamiento de una tienda online"
+  titular: "Project Manager Web"
+  perfil: >-
+    Project Manager con 7 años en proyectos digitales, 3 de ellos en una agencia de diseño y
+    desarrollo web. Gestioné en paralelo proyectos de sitios y eCommerce para clientes de retail y
+    educación: propuesta, cronograma, presupuesto y relación diaria con el cliente.
+  asunto: "Project Manager Web — Carolina Méndez"
+  carta: |
+    Hola:
+
+    Me postulo a Project Manager Web en Agencia Pampa. Trabajé tres años en una agencia y extraño ese ritmo de varios clientes a la vez; además me gusta que se especialicen en marcas de consumo.
+
+    En Estudio Nodal gestioné en paralelo entre 4 y 6 proyectos web y de eCommerce: armaba propuestas y cronogramas con el área comercial y era el contacto diario con cada cliente. Con revisiones de alcance al cierre de cada etapa bajamos un 25% el retrabajo. No trabajé con Shopify ni VTEX, y ya estoy haciendo el curso de Shopify.
+
+    Adjunto mi CV y quedo a disposición para una llamada.
+
+    Saludos cordiales,
+
+- id: 8
+  fecha: "2026-11-19"
+  empresa: "Logística Andina"
+  puesto: "Implementation Manager"
+  dedica: "Operador logístico peruano que vende su software de gestión de depósitos a otras empresas."
+  pais: "Perú"
+  salario: ""
+  canal: "formulario"
+  contacto: ""
+  link: "https://logisticaandina.example/careers/implementation"
+  fuente: "Computrabajo PE"
+  estado: "preparada"
+  proximo: ""
+  notas: ""
+  puntaje: 68
+  detalle_puntaje: "rol 20/30 · requisitos 18/30 · remoto 15/15 · español 15/15 · salario y contrato 0/10"
+  oferta: |
+    Logística Andina busca Implementation Manager para su software de gestión de depósitos (WMS).
+
+    - Liderar la puesta en marcha del WMS en clientes nuevos.
+    - Relevar procesos de depósito y configurar el sistema.
+    - Capacitar a los usuarios.
+
+    Requisitos: experiencia implementando sistemas de gestión, conocimiento de procesos de depósito, SQL.
+    Remoto. Postulación por la web.
+  requisitos:
+    - ["Implementación de sistemas", "En parte", "Migración del módulo de cobros; no implementó sistemas en clientes."]
+    - ["Procesos de depósito", "En parte", "Coordinó depósitos y despachos en Distribuidora Ríos."]
+    - ["SQL", "En parte", "SQL básico."]
+  brechas:
+    - "**WMS:** nunca configuró un sistema de depósitos. Es la brecha más grande."
+    - "**Capacitación de usuarios:** no figura en el maestro."
+  claves: "Implementation Manager, WMS, puesta en marcha, procesos de depósito, configuración, capacitación, SQL"
+  estudiar: "Qué es un WMS y cómo se implementa; SQL intermedio; Cómo armar una capacitación"
+  titular: "Project Manager | Implementación y procesos"
+  perfil: >-
+    Project Manager con 7 años en proyectos digitales y experiencia previa en operaciones de una
+    distribuidora, donde coordiné depósitos, despachos y transportistas. Llevo migraciones de
+    sistemas sin cortes de servicio y relevo procesos para simplificarlos.
+  asunto: ""
+  carta: |
+    Hola:
+
+    Me interesa la búsqueda de Implementation Manager porque une mis dos experiencias: los proyectos digitales que coordino hoy y los años en operaciones de una distribuidora, donde coordinaba depósitos, despachos y transportistas.
+
+    En Finvara lideré la migración del módulo de cobros a un proveedor nuevo sin cortes de servicio, en 5 meses y dentro del presupuesto. En Distribuidora Ríos documenté el circuito de pedidos y despachos y lo bajé de 9 a 6 pasos. Nunca configuré un WMS, pero conozco de cerca los procesos que ordena.
+
+    Quedo a disposición para una llamada cuando les quede cómodo.
+
+    Saludos cordiales,
+
+- id: 9
+  fecha: "2026-11-11"
+  empresa: "Kora Labs"
+  puesto: "Senior Project Manager"
+  dedica: "Software a medida para clientes de Estados Unidos."
+  pais: "Colombia"
+  salario: ""
+  canal: "formulario"
+  contacto: ""
+  link: "https://koralabs.example/jobs/senior-pm"
+  fuente: "We Work Remotely"
+  estado: "descartada"
+  proximo: ""
+  notas: "2026-11-11: pide inglés fluido para reuniones diarias con clientes"
+  puntaje: 40
+  detalle_puntaje: "rol 25/30 · requisitos 15/30 · remoto 15/15 · español 0/15 · salario y contrato 0/10"
+  oferta: |
+    Kora Labs is hiring a Senior Project Manager. Fluent English required for daily calls with US clients. Remote from LATAM.
+  requisitos:
+    - ["Inglés fluido", "No", "Inglés intermedio, lectura técnica y escrita."]
+  brechas:
+    - "**Descartada:** pide inglés fluido para reuniones diarias (regla 7 de REGLAS.md)."
+  claves: "Senior Project Manager, inglés fluido"
+  estudiar: ""
+  titular: ""
+  perfil: ""
+  asunto: ""
+  carta: ""
