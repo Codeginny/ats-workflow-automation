@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Entrar · Postulaciones de Caro</title>
+<link rel="icon" href="/static/icono.svg">
+<link rel="stylesheet" href="/static/app.css">
+<script>
+  try { const t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t;
+        else if (matchMedia("(prefers-color-scheme: dark)").matches) document.documentElement.dataset.theme = "dark"; } catch (e) {}
+</script>
+</head>
+<body>
+<main class="login">
+  <form method="post" action="/login">
+    <div class="marca-logo" aria-hidden="true">C</div>
+    <h1>Hola, Caro 👋</h1>
+    <p>Ingresá la clave de 6 números. Aparece en la terminal de la compu donde corre la plataforma.</p>
+    <!--ERROR-->
+    <label class="sr" for="clave">Clave</label>
+    <input id="clave" name="clave" type="password" inputmode="numeric" autocomplete="current-password" required autofocus>
+    <button class="btn btn-primario" type="submit">Entrar</button>
+  </form>
+</main>
+</body>
+</html>

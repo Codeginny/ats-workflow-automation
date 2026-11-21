@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#3a5bd9">
+<title>Postulaciones de Caro</title>
+<link rel="icon" href="/static/icono.svg">
+<link rel="apple-touch-icon" href="/static/icono.svg">
+<link rel="stylesheet" href="/static/app.css?v=20261119a">
+<script>
+  // Tema antes de pintar, para que no parpadee.
+  try { const t = localStorage.getItem("tema"); if (t) document.documentElement.dataset.theme = t;
+        else if (matchMedia("(prefers-color-scheme: dark)").matches) document.documentElement.dataset.theme = "dark"; } catch (e) {}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
+<script src="/static/app.js?v=20261119a" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-luna" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+  <symbol id="i-mas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-campana" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></symbol>
+  <symbol id="i-lapiz" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+  <symbol id="i-buscar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-cerrar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-imagen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></symbol>
+  <symbol id="i-pdf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-gorro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></symbol>
+  <symbol id="i-rayo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+  <symbol id="i-libro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
+  <symbol id="i-audio" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="top-in">
+    <div class="marca">
+      <div class="marca-logo" aria-hidden="true">C</div>
+      <div>
+        <h1>Postulaciones de Caro</h1>
+        <p id="subtitulo">Remoto 100% · en español</p>
+      </div>
+    </div>
+    <button class="btn" type="button" data-abrir-conocimiento aria-label="Agregar conocimiento">
+      <svg class="icono"><use href="#i-gorro"/></svg><span class="solo-escritorio">Agregar conocimiento</span>
+    </button>
+    <button class="btn btn-primario solo-escritorio" type="button" data-abrir-nueva>
+      <svg class="icono"><use href="#i-mas"/></svg> Nueva oferta
+    </button>
+    <div class="campana-cont">
+      <button class="btn btn-icono" type="button" id="btn-campana" aria-label="Avisos" aria-expanded="false" aria-controls="panel-avisos">
+        <svg class="icono"><use href="#i-campana"/></svg><span class="campana-badge" id="campana-badge" hidden></span>
+      </button>
+      <div id="panel-avisos" class="panel-avisos" hidden>
+        <div class="panel-avisos-cab">
+          <h2>Avisos</h2>
+          <button class="btn btn-chico" type="button" id="btn-limpiar-avisos">Borrar los terminados</button>
+        </div>
+        <div id="trabajos" class="trabajos"></div>
+        <p class="ayuda avisos-vacio" id="avisos-vacio">No hay avisos por ahora.</p>
+      </div>
+    </div>
+    <button class="btn btn-icono" type="button" id="btn-tema" aria-label="Cambiar a modo oscuro">
+      <svg class="icono"><use href="#i-luna"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <nav class="areas" aria-label="Áreas">
+    <button class="area" type="button" data-area="trabajo" aria-pressed="true">
+      <svg class="icono"><use href="#i-buscar"/></svg> Búsqueda de trabajo
+    </button>
+    <button class="area area-estudio" type="button" data-area="estudio" aria-pressed="false">
+      <svg class="icono"><use href="#i-gorro"/></svg> Área de estudio
+    </button>
+  </nav>
+
+  <div class="banner-estudio">
+    <h2>🎓 Área de estudio de Caro</h2>
+    <p>Todo lo que estás aprendiendo para conseguir el puesto: qué estudiar, tus cursos y el Diccionario PM.</p>
+  </div>
+
+  <div class="tabs" role="tablist" data-tabs="trabajo">
+    <button class="tab" role="tab" aria-selected="true" aria-controls="vista-postulaciones" data-vista="postulaciones">Postulaciones</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="vista-enviadas" data-vista="enviadas">Enviadas</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="vista-encontradas" data-vista="encontradas">Ofertas encontradas</button>
+  </div>
+  <div class="tabs" role="tablist" data-tabs="estudio" hidden>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="vista-estudiar" data-vista="estudiar">Qué estudiar</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="vista-cursos" data-vista="cursos">Cursos</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="vista-diccionario" data-vista="diccionario">Diccionario PM</button>
+  </div>
+
+
+  <section id="vista-postulaciones">
+    <div id="stats" class="stats" role="group" aria-label="Filtrar por estado"></div>
+    <div class="filtros">
+      <div class="campo-buscar">
+        <svg class="icono"><use href="#i-buscar"/></svg>
+        <label class="sr" for="buscar">Buscar</label>
+        <input id="buscar" type="search" placeholder="Buscar empresa, puesto o requisito">
+      </div>
+    </div>
+    <div class="leyenda" aria-label="Referencias de colores">
+      <span><i class="punto rojo"></i>Falta revisar y mejorar</span>
+      <span><i class="punto naranja"></i>Revisada, falta enviar</span>
+      <span><i class="punto verde"></i>Enviada</span>
+    </div>
+    <div id="lista"></div>
+  </section>
+
+  <section id="vista-enviadas" class="oculto">
+    <div class="estudio-cab">
+      <div>
+        <h2>Postulaciones enviadas</h2>
+        <p class="ayuda">El cuadro completo: en qué estado está cada una y cuándo toca hacer seguimiento.</p>
+      </div>
+    </div>
+    <div id="enviadas"></div>
+  </section>
+
+  <section id="vista-estudiar" class="oculto">
+    <div class="estudio-cab">
+      <div>
+        <h2>Qué estudiar primero</h2>
+        <p class="ayuda" id="estudio-criterio"></p>
+      </div>
+      <button class="btn btn-chico" type="button" id="btn-recalcular"><svg class="icono"><use href="#i-rayo"/></svg> Recalcular prioridades</button>
+    </div>
+    <div class="estudio-progreso" id="estudio-progreso"></div>
+    <ol class="estudio-lista" id="estudio-lista"></ol>
+    <details class="seccion-plegable" id="estudio-hechos"></details>
+    <section class="mis-conocimientos">
+      <div class="estudio-cab">
+        <h2>Mis conocimientos</h2>
+        <button class="btn btn-chico" type="button" data-abrir-conocimiento><svg class="icono"><use href="#i-mas"/></svg> Agregar</button>
+      </div>
+      <div id="conocimientos" class="conocimientos"></div>
+    </section>
+  </section>
+
+  <section id="vista-cursos" class="oculto">
+    <div class="estudio-cab">
+      <div>
+        <h2>Tus cursos, uno por uno</h2>
+        <p class="ayuda">Guardá links o capturas de cursos. El asistente los describe, te dice para qué te sirven y los ordena por prioridad.</p>
+      </div>
+      <button class="btn btn-primario btn-chico" type="button" id="btn-nuevo-curso"><svg class="icono"><use href="#i-mas"/></svg> Guardar curso</button>
+    </div>
+    <div id="cursos"></div>
+  </section>
+
+  <section id="vista-diccionario" class="oculto">
+    <div class="estudio-cab">
+      <div>
+        <h2>Diccionario PM</h2>
+        <p class="ayuda">Las palabras en inglés que se usan en los equipos remotos, Scrum y marketing. Jugá un rato por día.</p>
+      </div>
+      <button class="btn btn-chico" type="button" id="btn-nueva-palabra"><svg class="icono"><use href="#i-mas"/></svg> Agregá una palabra o conocimiento</button>
+    </div>
+    <div class="juego-stats" id="juego-stats"></div>
+    <article class="juego" id="juego" aria-live="polite"></article>
+    <details class="glosario">
+      <summary id="glosario-titulo">Ver todas las palabras</summary>
+      <div class="campo-buscar" style="margin:12px 0">
+        <svg class="icono"><use href="#i-buscar"/></svg>
+        <label class="sr" for="buscar-palabra">Buscar palabra</label>
+        <input id="buscar-palabra" type="search" placeholder="Buscar una palabra">
+      </div>
+      <div id="glosario" class="glosario-lista"></div>
+    </details>
+  </section>
+
+  <section id="vista-encontradas" class="oculto">
+    <div class="busqueda-diaria">
+      <div>
+        <h3>Búsqueda automática todos los días</h3>
+        <p class="ayuda" id="busqueda-info">El asistente busca ofertas nuevas solo, una vez por día, mientras la plataforma esté prendida.</p>
+      </div>
+      <div class="busqueda-controles">
+        <label class="interruptor"><input type="checkbox" id="busqueda-activa"> <span>Activa a las</span></label>
+        <label class="sr" for="busqueda-hora">Hora</label>
+        <input type="time" id="busqueda-hora" value="09:00">
+        <button class="btn btn-primario" type="button" id="btn-buscar-ahora"><svg class="icono"><use href="#i-buscar"/></svg> Buscar ahora</button>
+      </div>
+    </div>
+    <p class="ayuda" style="margin:0 0 12px">Tocá <b>Postularme</b> y El asistente arma todo solo. Te avisamos cuando esté lista para revisar y enviar.</p>
+    <div id="encontradas" class="md"></div>
+  </section>
+</main>
+
+<button class="btn btn-primario fab" type="button" data-abrir-nueva>
+  <svg class="icono"><use href="#i-mas"/></svg> Nueva oferta
+</button>
+
+<!-- Editar el CV -->
+<dialog id="dlg-cv" class="hoja" aria-labelledby="cv-titulo">
+  <form class="dlg" id="form-cv">
+    <div class="dlg-cab">
+      <div><h2 id="cv-titulo">Editar CV</h2><p class="ayuda" id="cv-empresa"></p></div>
+      <button class="btn btn-icono" type="button" data-cerrar aria-label="Cerrar">✕</button>
+    </div>
+    <div class="dlg-cuerpo cv-campos" id="cv-campos"></div>
+    <div class="dlg-pie">
+      <button class="btn" type="button" data-cerrar>Cancelar</button>
+      <button class="btn btn-primario" type="submit">Guardar y regenerar el PDF</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Detalle de una postulación -->
+<dialog id="dlg-detalle" class="hoja" aria-labelledby="det-titulo">
+  <div class="dlg">
+    <div class="dlg-cab">
+      <div class="puntaje" id="det-puntaje"><span></span></div>
+      <div>
+        <h2 id="det-titulo"></h2>
+        <p id="det-empresa"></p>
+      </div>
+      <button class="btn btn-icono" type="button" data-cerrar aria-label="Cerrar"><svg class="icono"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="dlg-cuerpo" id="det-cuerpo"></div>
+  </div>
+</dialog>
+
+<!-- Nueva oferta -->
+<dialog id="dlg-nueva" class="modal" aria-labelledby="nueva-titulo">
+  <form class="dlg" id="form-nueva">
+    <div class="dlg-cab">
+      <div>
+        <h2 id="nueva-titulo">Nueva oferta</h2>
+        <p>Pegá el texto, subí una captura o poné el link. El asistente arma el CV adaptado con filtros ATS, la carta y el mail.</p>
+      </div>
+      <button class="btn btn-icono" type="button" data-cerrar aria-label="Cerrar"><svg class="icono"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="dlg-cuerpo">
+      <div class="form-grupo">
+        <label for="nueva-texto">Texto de la publicación</label>
+        <textarea id="nueva-texto" name="texto" placeholder="Ej.: «Estamos buscando Success Manager Comercial, 100% remoto… Escribinos a rrhh@empresa.com»"></textarea>
+      </div>
+      <div class="separador">y/o</div>
+      <div class="form-grupo">
+        <span class="form-grupo-titulo"><b>Capturas de pantalla</b></span>
+        <label class="zona" id="zona">
+          <svg class="icono"><use href="#i-imagen"/></svg>
+          <span><b>Tocá para elegir</b> o arrastrá las imágenes</span>
+          <span class="ayuda">Podés subir varias si la publicación es larga</span>
+          <input id="nueva-capturas" type="file" accept="image/*" multiple class="sr">
+        </label>
+        <div class="miniaturas" id="miniaturas"></div>
+      </div>
+      <div class="form-grupo">
+        <label for="nueva-link">Link de la publicación (opcional)</label>
+        <input id="nueva-link" name="link" type="url" inputmode="url" placeholder="https://empresa.com/empleos/…">
+      </div>
+      <p class="ayuda">Tarda unos 3 a 6 minutos. Podés cerrar esta ventana: el avance se ve en la lista. Nada se envía sin que lo confirmes.</p>
+    </div>
+    <div class="dlg-pie">
+      <button class="btn" type="button" data-cerrar>Cancelar</button>
+      <button class="btn btn-primario" type="submit" id="btn-procesar">Preparar postulación</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Enviar mail -->
+<dialog id="dlg-mail" class="modal" aria-labelledby="mail-titulo">
+  <form class="dlg" id="form-mail">
+    <div class="dlg-cab">
+      <div>
+        <h2 id="mail-titulo">Revisar y enviar el mail</h2>
+        <p>Leelo entero antes de enviar. Se manda desde el correo de Carolina.</p>
+      </div>
+      <button class="btn btn-icono" type="button" data-cerrar aria-label="Cerrar"><svg class="icono"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="dlg-cuerpo">
+      <div id="mail-sin-smtp" class="aviso-caja oculto">
+        Para enviar desde acá falta configurar el Gmail: copiá <code>.env.ejemplo</code> como <code>.env</code> y completá la
+        contraseña de aplicación (ver el README). Mientras tanto podés copiar el texto y mandarlo a mano.
+      </div>
+      <div class="form-grupo"><label for="mail-para">Para</label><input id="mail-para" type="email" required></div>
+      <div class="form-grupo"><label for="mail-asunto">Asunto</label><input id="mail-asunto" type="text" required></div>
+      <div class="form-grupo"><label for="mail-cuerpo">Mensaje</label><textarea id="mail-cuerpo" rows="12" required></textarea></div>
+      <div class="form-grupo"><span class="ayuda">Al final se agrega sola la firma de Caro:</span><pre class="carta firma" id="mail-firma"></pre></div>
+      <div class="form-grupo"><b>Adjuntos</b><div class="chips" id="mail-adjuntos"></div></div>
+      <fieldset class="checklist-envio" id="mail-checklist">
+        <legend>Antes de enviar, revisá todo:</legend>
+        <label><input type="checkbox" data-check> <span>Abrí y revisé el CV <a id="mail-ver-cv" href="#" target="_blank" rel="noopener">(ver PDF)</a></span></label>
+        <label><input type="checkbox" data-check> <span>Leí la carta de presentación (el mensaje de arriba)</span></label>
+        <label><input type="checkbox" data-check> <span>Revisé los requisitos del puesto y lo que pide la publicación (asunto, sueldo, etc.)</span></label>
+        <details id="mail-requisitos"><summary>Ver requisitos del puesto</summary><div class="chips"></div></details>
+        <label><input type="checkbox" data-check> <span>Revisé a quién se lo mando: <b id="mail-destino"></b></span></label>
+      </fieldset>
+    </div>
+    <div class="dlg-pie">
+      <button class="btn" type="button" id="btn-copiar">Copiar texto</button>
+      <button class="btn btn-primario" type="submit" id="btn-enviar" disabled><svg class="icono"><use href="#i-mail"/></svg> Enviar mail</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Guardar curso -->
+<dialog id="dlg-curso" class="modal" aria-labelledby="curso-titulo">
+  <form class="dlg" id="form-curso">
+    <div class="dlg-cab">
+      <div>
+        <h2 id="curso-titulo">Guardar un curso</h2>
+        <p>Pegá el link, una descripción o una captura. El asistente averigua de qué se trata y para qué le sirve a Caro.</p>
+      </div>
+      <button class="btn btn-icono" type="button" data-cerrar aria-label="Cerrar"><svg class="icono"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="dlg-cuerpo">
+      <div class="form-grupo">
+        <label for="curso-link">Link del curso</label>
+        <input id="curso-link" type="url" inputmode="url" placeholder="https://www.coursera.org/…">
+      </div>
+      <div class="form-grupo">
+        <label for="curso-texto">Descripción o texto (opcional)</label>
+        <textarea id="curso-texto" rows="4" style="min-height:100px" placeholder="Ej.: curso gratis de Scrum de Santander Open Academy"></textarea>
+      </div>
+      <div class="form-grupo">
+        <span><b>Capturas (opcional)</b></span>
+        <label class="zona" id="curso-zona">
+          <svg class="icono"><use href="#i-imagen"/></svg>
+          <span><b>Tocá para elegir</b> o arrastrá las imágenes</span>
+          <input id="curso-capturas" type="file" accept="image/*" multiple class="sr">
+        </label>
+        <div class="miniaturas" id="curso-miniaturas"></div>
+      </div>
+    </div>
+    <div class="dlg-pie">
+      <button class="btn" type="button" data-cerrar>Cancelar</button>
+      <button class="btn btn-primario" type="submit" id="btn-guardar-curso">Guardar curso</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Agregar palabra -->
+<dialog id="dlg-palabra" class="modal" aria-labelledby="palabra-titulo">
+  <form class="dlg" id="form-palabra">
+    <div class="dlg-cab">
+      <div>
+        <h2 id="palabra-titulo">Agregá una palabra o conocimiento</h2>
+        <p>Una palabra que te cuesta, o una que aprendiste en un curso o una reunión. Entra al juego.</p>
+      </div>
+      <button class="btn btn-icono" type="button" data-cerrar aria-label="Cerrar"><svg class="icono"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="dlg-cuerpo">
+      <div class="form-grupo">
+        <label for="palabra-termino">Palabra</label>
+        <input id="palabra-termino" type="text" required placeholder="Ej.: Stand-up, Lead time, Wireframe">
+      </div>
+      <div class="form-grupo">
+        <label for="palabra-significado">¿Qué significa? (con tus palabras, si lo sabés)</label>
+        <textarea id="palabra-significado" rows="3" style="min-height:80px" placeholder="Ej.: reunión cortita de pie para contar avances"></textarea>
+      </div>
+      <div class="form-grupo">
+        <label for="palabra-ejemplo">¿Dónde la escuchaste? Una frase de ejemplo (opcional)</label>
+        <input id="palabra-ejemplo" type="text" placeholder="Ej.: «Hacemos el stand-up a las 9»">
+      </div>
+      <label class="check-confirmo" style="font-weight:500"><input type="checkbox" id="palabra-completar" checked> Que el asistente complete la explicación en criollo, la pronunciación y un ejemplo</label>
+    </div>
+    <div class="dlg-pie">
+      <button class="btn" type="button" data-cerrar>Cancelar</button>
+      <button class="btn btn-primario" type="submit"><svg class="icono"><use href="#i-check"/></svg> Agregar</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Agregar conocimiento -->
+<dialog id="dlg-conocimiento" class="modal" aria-labelledby="con-titulo">
+  <form class="dlg" id="form-conocimiento">
+    <div class="dlg-cab">
+      <div>
+        <h2 id="con-titulo">Agregar conocimiento</h2>
+        <p>Un curso, diplomado, certificado o algo que Caro ya sabe. Se suma a su base y se usa en los próximos CV.</p>
+      </div>
+      <button class="btn btn-icono" type="button" data-cerrar aria-label="Cerrar"><svg class="icono"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="dlg-cuerpo">
+      <input type="hidden" id="con-estudio">
+      <input type="hidden" id="con-curso">
+      <fieldset class="form-grupo segmentado" id="con-tipos">
+        <legend>¿Qué es?</legend>
+        <label><input type="radio" name="tipo" value="certificado" checked><span>Certificado</span></label>
+        <label><input type="radio" name="tipo" value="curso"><span>Curso</span></label>
+        <label><input type="radio" name="tipo" value="diplomado"><span>Diplomado</span></label>
+        <label><input type="radio" name="tipo" value="experiencia"><span>Ya lo sabía</span></label>
+      </fieldset>
+      <div class="form-grupo">
+        <label for="con-tema">Nombre</label>
+        <input id="con-tema" type="text" required placeholder="Ej.: Customer Success Fundamentals">
+      </div>
+      <div class="form-grupo" id="con-grupo-inst">
+        <label for="con-institucion">Institución o plataforma</label>
+        <input id="con-institucion" type="text" placeholder="Ej.: HubSpot Academy">
+      </div>
+      <div class="form-grupo" id="con-grupo-fecha">
+        <label for="con-fecha">Fecha</label>
+        <input id="con-fecha" type="month">
+      </div>
+      <div class="form-grupo">
+        <label for="con-detalle">Qué aprendió o cómo lo usó (opcional)</label>
+        <textarea id="con-detalle" rows="3" style="min-height:90px" placeholder="Ej.: Métricas de churn y NRR, armado de QBR"></textarea>
+        <p class="ayuda">Sólo texto. Tiene que ser verdad: esto va al CV.</p>
+      </div>
+    </div>
+    <div class="dlg-pie">
+      <button class="btn" type="button" data-cerrar>Cancelar</button>
+      <button class="btn btn-primario" type="submit"><svg class="icono"><use href="#i-check"/></svg> Guardar</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Felicitación -->
+<dialog id="dlg-festejo" class="modal festejo" aria-labelledby="festejo-titulo">
+  <canvas id="confeti" aria-hidden="true"></canvas>
+  <div class="festejo-cuerpo">
+    <div class="festejo-emoji" aria-hidden="true">🎉</div>
+    <h2 id="festejo-titulo">¡Felicidades por agregar un nuevo conocimiento, Caro!</h2>
+    <p id="festejo-texto"></p>
+    <div class="festejo-acciones">
+      <button class="btn btn-primario" type="button" data-cerrar>¡Vamos!</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- Prueba antes de sumar algo que «ya sabe» -->
+<dialog id="dlg-prueba" class="modal" aria-labelledby="prueba-titulo">
+  <div class="dlg">
+    <div class="dlg-cab">
+      <div><h2 id="prueba-titulo">¿Estás seguro que lo sabés?</h2><p id="prueba-tema"></p></div>
+      <button class="btn btn-icono" type="button" data-prueba="cancelar" aria-label="Cancelar"><svg class="icono"><use href="#i-cerrar"/></svg></button>
+    </div>
+    <div class="dlg-cuerpo" id="prueba-cuerpo"></div>
+    <div class="dlg-pie" id="prueba-pie"></div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
