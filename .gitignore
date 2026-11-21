@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+
+# Secretos y acceso local
+.env
+.panel_clave
+
+# Trabajos en curso de la plataforma (capturas, registros del asistente)
+entradas/
+
+# Salidas que se regeneran con el tracker
+panel.html
+seguimiento.xlsx
+progreso_estudio.json
+perfil/diccionario_progreso.json
+perfil/diccionario_temas.json
+plataforma.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
