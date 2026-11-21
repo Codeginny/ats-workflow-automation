@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-dev.txt
+
+      - name: Estilo (ruff)
+        run: ruff check .
+
+      - name: Tests
+        run: pytest
+
+      - name: Los datos de ejemplo del repo son los que arma el script
+        run: |
+          python herramientas/datos_demo.py
+          git diff --exit-code -- seguimiento.csv postulaciones
