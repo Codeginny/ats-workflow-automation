@@ -1,0 +1,41 @@
+# Qué busca la persona. La búsqueda y la preparación de postulaciones usan esto para filtrar y puntuar.
+puestos_objetivo:
+  gestion_de_proyectos:
+    - "Project Manager"
+    - "Digital Project Manager"
+    - "Coordinadora de proyectos"
+    - "Líder de proyectos"
+    - "Analista PMO"
+    - "Delivery Manager"
+    - "Scrum Master"
+  producto_y_operaciones:
+    - "Product Owner"
+    - "Implementation / Onboarding Manager"
+    - "Coordinadora de operaciones"
+
+modalidad: "remoto 100%"        # híbrido/presencial = descartar
+jornada_ok: ["full time"]
+idioma_de_trabajo: "español"    # inglés técnico o escrito sí; conversacional/oral = descartar
+
+salario:
+  pretension: "USD 2.200 mensuales, o su equivalente en la moneda del país del puesto"
+  si_no_dice_sueldo: "Usar USD 2.200"
+  si_la_oferta_publica_mas: "Usar el monto publicado (el máximo del rango)"
+  minimo: "USD 1.800 mensuales: si publica menos, se descarta"
+  en_el_cv: "Sólo si la publicación habla de sueldo (publica un monto o pide la pretensión)"
+
+contratacion_ok: ["relación de dependencia", "contractor / freelance"]
+
+descartar_si:
+  - "Está escrita en inglés o pide inglés conversacional, oral o fluido"
+  - "Publica un sueldo menor al mínimo"
+  - "Exige residencia o permiso de trabajo en otro país"
+  - "Es híbrido o presencial"
+  - "Pide pagar por capacitación o inscripción, o datos bancarios antes de una entrevista (estafa)"
+
+puntaje:  # suma 100
+  ajuste_de_rol: 30
+  match_de_requisitos: 30
+  remoto_100: 15
+  idioma_espanol: 15
+  salario_y_contrato: 10

@@ -1,0 +1,15 @@
+# Dónde busca ofertas el asistente (búsqueda a pedido y diaria). Sólo páginas públicas, sin iniciar sesión.
+# No entran todas en una pasada: se rota (ver `asistente/buscar.md`).
+latam_y_espanol:
+  - Computrabajo (AR, MX, CO, CL, ES)
+  - Bumeran
+  - ZonaJobs
+  - Indeed (Argentina, España, México)
+  - InfoJobs (España)
+  - Get on Board
+  - Torre
+  - Workana
+remoto_global_en_espanol:
+  - Remotive (filtrando español)
+  - We Work Remotely (filtrando español)
+  - Working Nomads (filtrando español)

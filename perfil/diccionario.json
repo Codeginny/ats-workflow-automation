@@ -1,0 +1,364 @@
+{
+ "palabras": [
+  {
+   "id": "brief",
+   "termino": "Brief",
+   "pronunciacion": "brif",
+   "categoria": "Negocio y clientes",
+   "significado": "Documento corto con lo que el cliente necesita y espera de un proyecto",
+   "criollo": "«Lo que pide el cliente, bien resumido en una hoja»",
+   "por_que": "Se usa porque todo el equipo arranca de la misma información: objetivo, público, plazos y presupuesto. Viene de «breve».",
+   "ejemplo": "«Antes de arrancar el diseño, revisemos el brief del cliente.»",
+   "preguntas_entrevista": [
+    "¿Cómo arma un brief con un cliente nuevo y qué información considera indispensable que tenga?",
+    "Si recibe un brief incompleto o contradictorio y el equipo ya tiene que arrancar, ¿qué hace?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "insight",
+   "termino": "Insight",
+   "pronunciacion": "ínsait",
+   "categoria": "Negocio y clientes",
+   "significado": "Descubrimiento clave sobre el cliente o los datos que cambia una decisión",
+   "criollo": "«Caer en la cuenta de algo importante»",
+   "por_que": "En empresas se dice así a la conclusión valiosa que sale de mirar datos o clientes y que permite actuar distinto.",
+   "ejemplo": "«El insight del reporte es que los clientes abandonan en el pago.»",
+   "preguntas_entrevista": [
+    "Cuénteme de algún insight sobre un cliente o sobre los datos que lo haya llevado a cambiar una decisión en un proyecto.",
+    "Si un insight del equipo contradice lo que pide el cliente, ¿cómo lo presenta y cómo se decide qué hacer?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "notion",
+   "termino": "Notion",
+   "pronunciacion": "nóushon",
+   "categoria": "Herramientas",
+   "significado": "Herramienta online para documentar, tomar notas y organizar tareas del equipo",
+   "criollo": "«Un cuaderno compartido en internet donde está todo ordenado»",
+   "por_que": "Los equipos remotos la usan para tener en un solo lugar la documentación, las tareas y las wikis.",
+   "ejemplo": "«Dejé las minutas de la reunión en Notion.»",
+   "preguntas_entrevista": [
+    "¿Usó Notion para documentar proyectos u organizar tareas? ¿Cómo estructuraba el espacio de trabajo?",
+    "Si entra a un equipo donde la información en Notion está desordenada y nadie la actualiza, ¿por dónde empieza?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "slack",
+   "termino": "Slack",
+   "pronunciacion": "slak",
+   "categoria": "Herramientas",
+   "significado": "Aplicación de chat por canales para la comunicación del equipo",
+   "criollo": "«Un WhatsApp del trabajo, con grupos por tema»",
+   "por_que": "En remoto reemplaza al pasillo de la oficina: cada proyecto tiene su canal y queda todo escrito.",
+   "ejemplo": "«Te escribo por Slack en el canal del proyecto.»",
+   "preguntas_entrevista": [
+    "¿Cómo organiza la comunicación de un equipo remoto en Slack: canales, hilos, menciones?",
+    "Si en Slack se pierden decisiones importantes entre cientos de mensajes, ¿qué cambiaría en el uso de la herramienta?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "shell",
+   "termino": "Shell",
+   "pronunciacion": "shel",
+   "categoria": "Tecnología",
+   "significado": "Programa de texto donde se escriben comandos para manejar la computadora",
+   "criollo": "«La pantallita negra donde los programadores escriben órdenes»",
+   "por_que": "Los desarrolladores la usan para correr programas, instalar cosas y automatizar tareas sin ventanas ni botones.",
+   "ejemplo": "«El deploy se corre con un comando en la shell.»",
+   "preguntas_entrevista": [
+    "¿Tuvo que usar alguna vez la shell o la terminal en su trabajo? ¿Para qué?",
+    "Si un desarrollador le pide que corra un comando en la shell para revisar algo durante una urgencia, ¿cómo se maneja?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "backlog",
+   "termino": "Backlog",
+   "pronunciacion": "báklog",
+   "categoria": "Scrum y ágil",
+   "significado": "Lista priorizada de todo lo que falta hacer en el producto",
+   "criollo": "«La lista de pendientes, ordenada por lo más importante»",
+   "por_que": "En Scrum es la fuente de todo el trabajo: el Product Owner la ordena y el equipo toma de arriba hacia abajo.",
+   "ejemplo": "«Eso no entra en este sprint, lo sumo al backlog.»",
+   "preguntas_entrevista": [
+    "¿Cómo mantiene ordenado y priorizado el backlog de un proyecto?",
+    "Si el backlog tiene cientos de ítems viejos y nadie sabe cuáles siguen siendo importantes, ¿qué hace?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "sprint",
+   "termino": "Sprint",
+   "pronunciacion": "sprint",
+   "categoria": "Scrum y ágil",
+   "significado": "Período corto y fijo (1 a 4 semanas) en el que el equipo entrega algo terminado",
+   "criollo": "«Una tanda de trabajo de dos semanas con meta clara»",
+   "por_que": "Se trabaja en tandas cortas para entregar seguido, recibir opiniones y corregir rápido.",
+   "ejemplo": "«En este sprint terminamos el carrito de compras.»",
+   "preguntas_entrevista": [
+    "¿Trabajó en sprints? ¿De cuántas semanas y cómo era la dinámica del equipo?",
+    "Si a mitad del sprint aparece un pedido urgente del cliente, ¿cómo lo maneja sin romper el sprint?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "daily",
+   "termino": "Daily",
+   "pronunciacion": "déili",
+   "categoria": "Scrum y ágil",
+   "significado": "Reunión diaria de 15 minutos para ver avances y bloqueos",
+   "criollo": "«La juntada cortita de todas las mañanas»",
+   "por_que": "Sirve para que todos sepan en qué está cada uno y detectar trabas temprano, sin reuniones largas.",
+   "ejemplo": "«Lo charlamos mañana en la daily.»",
+   "preguntas_entrevista": [
+    "¿Cómo facilita una daily para que dure 15 minutos y sea útil?",
+    "Si la daily se convierte en una reunión larga de discusiones técnicas, ¿cómo la reencauza?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "stakeholder",
+   "termino": "Stakeholder",
+   "pronunciacion": "stéikjolder",
+   "categoria": "Negocio y clientes",
+   "significado": "Persona o grupo interesado o afectado por el proyecto",
+   "criollo": "«Todos los que tienen algo que ver o algo que decir en el proyecto»",
+   "por_que": "Hay que identificarlos y mantenerlos informados: clientes, jefes, proveedores, usuarios.",
+   "ejemplo": "«Tengo que mandar el avance a los stakeholders.»",
+   "preguntas_entrevista": [
+    "¿Cómo identifica a los stakeholders de un proyecto y cómo decide con qué frecuencia comunicarse con cada uno?",
+    "Si dos stakeholders importantes piden cosas opuestas, ¿cómo resuelve el conflicto?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "kpi",
+   "termino": "KPI",
+   "pronunciacion": "kei-pi-ái",
+   "categoria": "Negocio y clientes",
+   "significado": "Indicador numérico que mide si se cumple un objetivo",
+   "criollo": "«El número que muestra si vamos bien o mal»",
+   "por_que": "Viene de Key Performance Indicator. Las empresas deciden con números, no con sensaciones.",
+   "ejemplo": "«El KPI del trimestre es bajar el tiempo de entrega.»",
+   "preguntas_entrevista": [
+    "¿Qué KPI usó para medir el éxito de sus proyectos o de su gestión con clientes?",
+    "Si un KPI clave viene empeorando hace dos meses, ¿qué pasos sigue para entender la causa?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "deadline",
+   "termino": "Deadline",
+   "pronunciacion": "dédlain",
+   "categoria": "Reuniones y comunicación",
+   "significado": "Fecha límite de entrega",
+   "criollo": "«La fecha tope, hasta acá llegamos»",
+   "por_que": "Se usa para marcar el plazo que no se puede pasar sin consecuencias.",
+   "ejemplo": "«El deadline del cliente es el viernes.»",
+   "preguntas_entrevista": [
+    "Cuénteme de un proyecto con un deadline muy ajustado: ¿cómo lo organizó para cumplirlo?",
+    "Si se da cuenta de que el equipo no va a llegar al deadline, ¿qué hace y a quién le avisa primero?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "scope",
+   "termino": "Scope",
+   "pronunciacion": "scóup",
+   "categoria": "Scrum y ágil",
+   "significado": "Alcance: lo que incluye y lo que no incluye el proyecto",
+   "criollo": "«Hasta dónde llega el trabajo que prometimos»",
+   "por_que": "Definirlo evita que el cliente pida cosas de más sin pagar ni dar más tiempo.",
+   "ejemplo": "«Eso está fuera del scope, lo cotizamos aparte.»",
+   "preguntas_entrevista": [
+    "¿Cómo define y documenta el scope de un proyecto al inicio para evitar malentendidos?",
+    "Si el cliente dice que algo estaba dentro del scope y usted entiende que no, ¿cómo lo resuelve?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "scope-creep",
+   "termino": "Scope creep",
+   "pronunciacion": "scóup crip",
+   "categoria": "Scrum y ágil",
+   "significado": "Cuando el alcance crece de a poco sin control",
+   "criollo": "«Se nos fue agrandando el proyecto sin darnos cuenta»",
+   "por_que": "Es un riesgo clásico del PM: pequeños pedidos extra que juntos rompen plazos y presupuesto.",
+   "ejemplo": "«Ojo con el scope creep, ya van cinco cambios.»",
+   "preguntas_entrevista": [
+    "¿Vivió algún caso de scope creep? ¿Cómo lo detectó y qué hizo?",
+    "Si el cliente pide ‘un pequeño cambio más’ cada semana, ¿cómo evita el scope creep sin dañar la relación?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "roadmap",
+   "termino": "Roadmap",
+   "pronunciacion": "róudmap",
+   "categoria": "Negocio y clientes",
+   "significado": "Plan visual de qué se va a hacer y en qué orden en los próximos meses",
+   "criollo": "«El mapa del camino del producto»",
+   "por_que": "Sirve para alinear a todos sobre hacia dónde va el producto sin entrar en detalles diarios.",
+   "ejemplo": "«En el roadmap del Q1 está la app móvil.»",
+   "preguntas_entrevista": [
+    "¿Armó algún roadmap? ¿Qué horizonte de tiempo cubría y cómo lo comunicaba?",
+    "Si la dirección cambia las prioridades y hay que rehacer el roadmap, ¿cómo se lo explica al equipo y a los clientes?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "mvp",
+   "termino": "MVP",
+   "pronunciacion": "em-vi-pi",
+   "categoria": "Negocio y clientes",
+   "significado": "Primera versión mínima del producto que ya sirve para probar con usuarios",
+   "criollo": "«La versión más simple que ya funciona, para probar si gusta»",
+   "por_que": "Minimum Viable Product: se lanza rápido y barato para aprender antes de invertir de más.",
+   "ejemplo": "«Lanzamos un MVP en un mes y después mejoramos.»",
+   "preguntas_entrevista": [
+    "¿Participó en el lanzamiento de un MVP? ¿Cómo se decidió qué entraba y qué quedaba afuera?",
+    "Si el cliente quiere sumar funcionalidades al MVP antes de probarlo con usuarios, ¿qué le responde?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "feedback",
+   "termino": "Feedback",
+   "pronunciacion": "fídbak",
+   "categoria": "Reuniones y comunicación",
+   "significado": "Devolución u opinión sobre un trabajo para mejorarlo",
+   "criollo": "«La devolución, lo que te dicen que está bien o mal»",
+   "por_que": "En las empresas se pide y se da seguido para ajustar el trabajo a tiempo.",
+   "ejemplo": "«Mandame tu feedback del diseño antes del jueves.»",
+   "preguntas_entrevista": [
+    "¿Cómo le da feedback a un integrante del equipo cuyo trabajo no está al nivel esperado?",
+    "Si recibe feedback negativo de un cliente sobre un entregable, ¿cómo lo procesa y qué hace después?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "onboarding",
+   "termino": "Onboarding",
+   "pronunciacion": "ónbording",
+   "categoria": "Negocio y clientes",
+   "significado": "Proceso de bienvenida y puesta en marcha de un cliente o empleado nuevo",
+   "criollo": "«Hacer que el nuevo arranque con el pie derecho»",
+   "por_que": "Un buen onboarding hace que el cliente use el producto y no se vaya, o que el empleado rinda rápido.",
+   "ejemplo": "«El onboarding del cliente dura dos semanas.»",
+   "preguntas_entrevista": [
+    "¿Cómo diseñaría el onboarding de un cliente nuevo para que empiece a usar el servicio rápido?",
+    "Si un cliente lleva semanas en onboarding y no avanza, ¿qué haría para destrabarlo?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "churn",
+   "termino": "Churn",
+   "pronunciacion": "chern",
+   "categoria": "Negocio y clientes",
+   "significado": "Porcentaje de clientes que dejan de comprar o se dan de baja",
+   "criollo": "«Los clientes que se nos van»",
+   "por_que": "Es la métrica principal de Customer Success: bajar el churn vale más que conseguir clientes nuevos.",
+   "ejemplo": "«Este mes el churn fue del 3%.»",
+   "preguntas_entrevista": [
+    "¿Trabajó con métricas de churn? ¿Qué acciones tomó para reducirlo?",
+    "Si nota señales de que un cliente importante está por irse y aumentar el churn, ¿qué hace?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "upselling",
+   "termino": "Upselling",
+   "pronunciacion": "ápseling",
+   "categoria": "Negocio y clientes",
+   "significado": "Ofrecerle al cliente una versión mejor o más completa de lo que ya compra",
+   "criollo": "«Venderle el combo agrandado»",
+   "por_que": "Sube el ticket promedio aprovechando a un cliente que ya confía en la empresa.",
+   "ejemplo": "«Con el upselling al plan premium crecimos 20%.»",
+   "preguntas_entrevista": [
+    "Cuénteme de alguna vez que hizo upselling con un cliente. ¿Cómo detectó la oportunidad?",
+    "Si un cliente está insatisfecho pero la empresa le pide hacerle upselling, ¿cómo maneja la situación?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "kickoff",
+   "termino": "Kickoff",
+   "pronunciacion": "kíkof",
+   "categoria": "Reuniones y comunicación",
+   "significado": "Reunión de arranque de un proyecto con todos los involucrados",
+   "criollo": "«La reunión del puntapié inicial»",
+   "por_que": "Se alinean objetivos, roles, plazos y forma de comunicarse antes de empezar a trabajar.",
+   "ejemplo": "«El kickoff con el cliente es el lunes a las 10.»",
+   "preguntas_entrevista": [
+    "¿Qué temas no pueden faltar en un kickoff de proyecto?",
+    "Si en el kickoff descubre que el cliente y el equipo tienen expectativas muy distintas, ¿cómo lo maneja?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "retrospective",
+   "termino": "Retrospective",
+   "pronunciacion": "retrospéktiv",
+   "categoria": "Scrum y ágil",
+   "significado": "Reunión al final del sprint para ver qué salió bien, qué mal y qué mejorar",
+   "criollo": "«La charla de qué aprendimos de la última tanda»",
+   "por_que": "En Scrum es la herramienta de mejora continua: el equipo se ajusta solo cada sprint.",
+   "ejemplo": "«En la retro acordamos hacer reviews más cortas.»",
+   "preguntas_entrevista": [
+    "¿Cómo facilita una retrospective para que el equipo hable con sinceridad?",
+    "Si en cada retrospective salen los mismos problemas y nada cambia, ¿qué haría distinto?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "user-story",
+   "termino": "User story",
+   "pronunciacion": "iúser stóri",
+   "categoria": "Scrum y ágil",
+   "significado": "Pedido escrito desde el punto de vista del usuario: «como X quiero Y para Z»",
+   "criollo": "«Lo que el usuario quiere hacer, contado en una oración»",
+   "por_que": "Ayuda a que el equipo entienda para quién y para qué se hace cada cosa, no sólo qué.",
+   "ejemplo": "«Como comprador quiero guardar mi tarjeta para pagar más rápido.»",
+   "preguntas_entrevista": [
+    "¿Escribió o revisó alguna user story? ¿Qué hace que una user story esté bien escrita?",
+    "Si el equipo recibe una user story muy vaga, ¿cómo la trabaja con el cliente para aclararla?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "story-points",
+   "termino": "Story points",
+   "pronunciacion": "stóri points",
+   "categoria": "Scrum y ágil",
+   "significado": "Unidad para estimar el esfuerzo relativo de una tarea",
+   "criollo": "«Puntos para decir cuánto cuesta una tarea comparada con otra»",
+   "por_que": "No se estima en horas sino en tamaño relativo; así el equipo planifica sin promesas exactas.",
+   "ejemplo": "«Esa historia es de 5 story points.»",
+   "preguntas_entrevista": [
+    "¿Cómo explicaría a un cliente qué son los story points y por qué no son horas?",
+    "Si el equipo siempre subestima los story points y no llega, ¿cómo lo aborda?"
+   ],
+   "origen": "inicial"
+  },
+  {
+   "id": "product-owner",
+   "termino": "Product Owner",
+   "pronunciacion": "próduct óuner",
+   "categoria": "Scrum y ágil",
+   "significado": "Rol que decide qué se hace y en qué orden para maximizar el valor del producto",
+   "criollo": "«El dueño de la lista de prioridades»",
+   "por_que": "En Scrum es la voz del negocio y del cliente dentro del equipo.",
+   "ejemplo": "«Lo tiene que priorizar el Product Owner.»",
+   "preguntas_entrevista": [
+    "¿Cómo fue su relación de trabajo con el Product Owner en proyectos anteriores?",
+    "Si el Product Owner no está disponible y el equipo necesita decisiones, ¿qué hace?"
+   ],
+   "origen": "inicial"
+  }
+ ]
+}

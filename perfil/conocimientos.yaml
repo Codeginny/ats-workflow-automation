@@ -1,0 +1,12 @@
+# Conocimientos que la persona suma con el tiempo (cursos, certificados, cosas que ya sabía).
+# Es parte de la fuente de verdad junto con cv_maestro.yaml. Lo llena la plataforma ("Agregar conocimiento").
+conocimientos:
+- tema: Gestión de riesgos con matriz de probabilidad e impacto
+  tipo: experiencia
+  detalle: La usa en Finvara para el comité semanal.
+  agregado: '2026-10-28'
+- tema: Fundamentos de OKR
+  tipo: curso
+  institucion: Curso online
+  fecha: '2026-11'
+  agregado: '2026-11-09'
