@@ -1,0 +1,12 @@
+{
+  "name": "capturas-asistente-postulaciones",
+  "private": true,
+  "type": "module",
+  "description": "Genera las capturas anotadas del README y del caso de estudio",
+  "scripts": {
+    "anotar": "node anotar.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1"
+  }
+}

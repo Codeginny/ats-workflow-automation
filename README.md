@@ -4,6 +4,8 @@
 
 Plataforma web local para llevar una búsqueda de trabajo como un proyecto: cada oferta entra, se analiza contra el CV, se prepara un CV y una carta a medida, y queda en un tablero hasta que llega una respuesta. Un asistente analítico hace el análisis y la redacción siguiendo reglas escritas. La persona revisa todo antes de que salga.
 
+![Tablero de postulaciones](docs/capturas/00-portada-claro.png)
+
 ## Qué resuelve
 
 Postularse bien lleva tiempo: leer la oferta, ver qué piden y qué falta, adaptar el CV sin mentir, escribir una carta que no sea genérica, mandar el mail y acordarse de hacer el seguimiento. Cuando son 20 o 30 ofertas, se pierde el hilo.
@@ -52,6 +54,17 @@ Están en [REGLAS.md](REGLAS.md) y algunas también en el código:
 - **Nueva oferta:** se pega el texto, se sube una captura (también desde el celular) o se pone el link. El avance del asistente se ve paso a paso y, si se corta, se puede reintentar desde donde quedó.
 - **Ofertas encontradas:** resultado de la búsqueda diaria, con encaje y brechas, para elegir cuáles preparar.
 - **Área de estudio** (apagada en la demo): plan de estudio según lo que piden las ofertas, cursos y un diccionario de términos de gestión de proyectos.
+
+### En imágenes
+
+| | |
+|---|---|
+| ![Análisis de una oferta](docs/capturas/p02-analisis.png) | ![Coincidencia ATS](docs/capturas/da01-ats.png) |
+| **Análisis:** puntaje desglosado y evidencia de cada requisito en el CV maestro. | **ATS:** cuánto del CV lee un filtro y qué falta, sin inflar. |
+| ![Lista de revisión antes de enviar](docs/capturas/d02-envio.png) | ![Avance de un trabajo](docs/capturas/f01-avance.png) |
+| **Envío:** cuatro chequeos y el botón apagado hasta completarlos. | **Avance:** cada paso del análisis, en una frase. |
+
+Las capturas se generan con `docs/capturas/anotar.mjs` (Playwright) sobre una copia de los datos de ejemplo.
 
 ## Estructura
 
